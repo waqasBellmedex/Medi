@@ -1,0 +1,2 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MediFusionPM.Controllers.PracticeController.GetPractices() in C:\Users\LPT44\Desktop\MediFusionPM\MediFusionPM\Controllers\PracticeController.cs:line 45

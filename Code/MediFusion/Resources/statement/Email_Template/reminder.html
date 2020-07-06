@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>APPOINTMENT</title>
+	<style>
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 105px;
+  border: 2px solid #1A6893;
+  margin-top:20px;
+  color: #1A6893;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #1A6893;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+#button-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-3 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #1A6893;
+  position: absolute;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
+  color:#FFF;
+}
+
+#button-3:hover #circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+#button-3:hover a {
+  color: #FFF;
+}
+.abc{
+	margin-top:20px;
+	
+	}
+.boxes {
+  margin: auto;
+  padding: 50px;
+  background: #484848;
+}
+</style>
+</head>
+<body>
+    <div class="container" style="background-color:#EAEAEA;">
+        <br>
+        <center><div><img src="http://96.69.218.154:8010/Email/logo-medi-fusion.png"></div></center><br>
+        <div class="container" style="background-color:#FFF;">
+            <br>
+            <div class="row"><h4 style="margin-left:5px;">Dear Mr [PATIENTNAME],</h4></div>
+            <div class="row"><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your appointment with Dr.  [PROVIDERNAME] is scheduled  at Date <strong>[DATE]</strong>  , Duration of [INTERVAL], </div></div>
+            <div class="row">Please click on button to mark your action.</div>
+        
+
+         
+
+        <div style="width:100%;">
+				                   <div class="button" id="button-3" style="float: right;"><div id="circle"></div><a href="https://service.medifusion.com/api/ExternalServices/UpdateAppointmentStatus?ClientID=[ClientID]&response=8001">Confirm</a></div>            		
+				<div class="button" id="button-3" style="float: right;margin-right: 15px;"><div id="circle"></div><a href="https://service.medifusion.com/api/ExternalServices/UpdateAppointmentStatus?ClientID=[ClientID]&response=8004">Reschedule</a></div>			
+				<div class="button" id="button-3" style="float: right;margin-right: 15px;"><div id="circle"></div><a href="https://service.medifusion.com/api/ExternalServices/UpdateAppointmentStatus?ClientID=[ClientID]&response=8000">Cancel</a></div>			
+                <div class="button" id="button-3" style="float: right;margin-right: 15px;"><div id="circle"></div><a href="https://service.medifusion.com/api/ExternalServices/UpdateAppointmentStatus?ClientID=[ClientID]&response=8006">To Be Late</a></div>
+                
+             
+            </div>
+            <br><br><br>
+            <div class="row">Thank you</div><br>
+            <div class="row">
+                <div style="float:left;">
+                    <img src="http://96.69.218.154:8010/Email/logo-half.png" width="50px" height="50px">
+                </div>
+                <div style="line-height:18px; margin-left:30px;">
+                    <strong><label style=" color:#0088A8;">Bell</label><label style=" color:#DA5069;">MedEx</label></strong><br>
+                    <label><a href="https://bellmedex.com" target="_blank">Bellmedex.com</a></label><br>
+                    <label >(888) 987 6250</label>
+                </div>
+            </div><br>
+
+            <div style="width:100%; height:150px; background-color:#0088A8;">
+                <diV style=" width:100%; height:40px;">
+                    <div style="color:#FFF;"><center><strong>Share And Follow Us</strong></center></div>
+                </diV>
+                <div style="width:25%; height:80px;background-color:#0088A8; float:left; color:#FFF;">
+                    <center><img src="http://96.69.218.154:8010/Email/fb.png" width="40px;" height="40px;"><br>						<strong>Facebook</strong></center>
+                </div>
+                <div style="width:25%; height:80px;background-color:#0088A8; float:left; color:#FFF;">
+                    <center><img src="http://96.69.218.154:8010/Email/twiiter.png" width="40px;" height="40px;"><br>						<strong>Twitter</strong></center>
+                </div>
+                <div style="width:25%; height:80px;background-color:#0088A8; float:left; color:#FFF;">
+                    <center><img src="http://96.69.218.154:8010/Email/linkedin.png" width="40px;" height="40px;"><br>						<strong>Linkedin</strong></center>
+                </div>
+                <div style="width:25%; height:80px;background-color:#0088A8; float:left; color:#FFF;">
+                    <center><img src="http://96.69.218.154:8010/Email/web.png" width="40px;" height="40px;"><br>						<strong>Website</strong></center>
+                </div>
+
+
+
+            </div>
+            <br>
+
+
+        </div>   	<br><br>
+
+    </div>
+
+</body>
+</html>

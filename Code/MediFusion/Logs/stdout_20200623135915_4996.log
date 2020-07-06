@@ -1,0 +1,2153 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Lpt44\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Start installing Hangfire SQL objects...
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Hangfire SQL objects installed.
+warn: Microsoft.AspNetCore.Identity.UserManager[5]
+      User 18ff91d7-4b13-497c-8735-c496adff21e5 is already in role SuperAdmin.
+info: Hangfire.BackgroundJobServer[0]
+      Starting Hangfire Server using job storage: 'SQL Server: 96.69.218.154\SQLEXPRESS@Hangfire'
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for Hangfire Server:
+          Worker count: 20
+          Listening queues: 'default'
+          Shutdown timeout: 00:00:15
+          Schedule polling interval: 00:00:15
+Hosting environment: Development
+Content root path: C:\Users\Lpt44\Desktop\Code\MediFusion
+Now listening on: http://127.0.0.1:21263
+Application started. Press Ctrl+C to shut down.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop BackgroundServerProcess:ca76b478 has started in 16.8106 ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:57181/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44306/api/values  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/Account/Login application/json 605
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b successfully announced in 345.1067 ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 165.5958ms 200 
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:b062007f has started in 34.9766 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:d6924abd has started in 17.0681 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:8450f921 has started in 14.0542 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:e54b303b has started in 18.1958 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:d3f4e732 has started in 17.9851 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fcff02bb has started in 17.4461 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0eb8e4fc has started in 61.2865 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:75a8ed7d has started in 61.5165 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:62b96560 has started in 61.5495 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b2c7da39 has started in 100.0741 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fe2da917 has started in 115.2729 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:30324978 has started in 200.77 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3c4a96f1 has started in 432.733 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:91cf2b26 has started in 432.8505 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1fe80964 has started in 458.1446 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b0db0086 has started in 472.5468 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cfb89fe0 has started in 480.9871 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2ebdd646 has started in 485.4405 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6a371fe6 has started in 491.8245 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:25282cc5 has started in 500.8061 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:db6b5225 has started in 500.8823 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d8f7595 has started in 510.1268 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:42c50989 has started in 517.7986 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fbf7ec7f has started in 527.1975 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:806918a8 has started in 527.2427 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:24e35a81 has started in 26.7579 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:034a7d00 has started in 39.9282 ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(MediFusionPM.ViewModels.Main.MainAccountVM) on controller MediFusionPM.Controllers.AccountController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller MediFusionPM.Controllers.ValuesController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.ValuesController.Get (MediFusionPM) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.ValuesController.Get (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.8074ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String[]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.ValuesController.Get (MediFusionPM) in 68.8619ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2030.9396ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.AccountController.Login (MediFusionPM) - Validation state: Valid
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Identity.Application signed in.
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'AppointmentCPT'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TotalAmount' on entity type 'AppointmentCPT'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'BatchDocumentCharges'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatientAmount' on entity type 'BatchDocumentCharges'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Applied' on entity type 'BatchDocumentPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CheckAmount' on entity type 'BatchDocumentPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'UnApplied' on entity type 'BatchDocumentPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Coinsurance' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Deductible' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Discount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier1Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier2Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier3Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier4Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatResp' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryAllowed' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBilledAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPatientBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryTransferred' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryWriteOff' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryAllowed' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBilledAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatResp' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatientBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryTransferred' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryWriteOff' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryAllowed' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBilledAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatResp' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatientBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryTransferred' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryWriteOff' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TotalAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'ChargeStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'ChargeStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'ChargeStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'ChargeSubmissionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Price' on entity type 'ClinicalFormsCPT'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'Cpt'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'MedicareAmount' on entity type 'Cpt'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'NonFacilityAmount' on entity type 'Cpt'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Adj' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Balance' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Charges' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'InsurancePayment' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPayment' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBal' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'RemainingDeductible' on entity type 'ExternalPatient'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Adj' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Balance' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Charges' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'InsurancePayment' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPayment' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'DefaultFees' on entity type 'Modifier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'RemainingDeductible' on entity type 'Patient'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PracticeID' on entity type 'PatientAllergy'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AuthorizedAmount' on entity type 'PatientAuthorization'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BenefitAmount' on entity type 'PatientEligibilityDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllocatedAmount' on entity type 'PatientPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaymentAmount' on entity type 'PatientPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'RemainingAmount' on entity type 'PatientPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllocatedAmount' on entity type 'PatientPaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CoInsurance' on entity type 'PatientPlan'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'PatientPlan'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Deductible' on entity type 'PatientPlan'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'amount' on entity type 'PatientStatement'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'amount' on entity type 'PatientStatementChargeHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BMI' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BPDiastolic' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BPSystolic' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'HeadCircumference' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Height_cm' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Height_foot' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OxygenSaturation' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PracticeID' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Pulse' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Respiratory_rate' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Temperature' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Weight_lbs' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Weight_pounds' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AppliedAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CheckAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PostedAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'UnAppliedAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'PaymentLedger'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'FTEPerDayRate' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'FTEPerMonthRate' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'FTEPerWeekRate' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'MinimumMonthlyAmount' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'ClaimAmount' on entity type 'SubmissionLog'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount1' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount2' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount3' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount4' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount5' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllowedAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CoinsuranceAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'DeductableAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatResp' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'WriteoffAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllowedAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'WriteOffAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Coinsurance' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CopayPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Deductible' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Discount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'LabCharges' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'MovedToAdvancePayment' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatResp' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryAllowed' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBilledAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPatientBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryTransferred' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryWriteOff' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryAllowed' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBilledAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatResp' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatientBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryTransferred' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryWriteOff' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryAllowed' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBilledAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatResp' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatientBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryTransferred' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryWriteOff' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TotalAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'VisitStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'VisitStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'VisitAmount' on entity type 'VisitStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (319ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (331ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (674ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20200623100843_AddVisitStatusLogIDINVisitStatus'.
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (312ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      ALTER TABLE [VisitStatus] ADD [VisitStatusLogID] bigint NULL;
+System.Data.SqlClient.SqlException (0x80131904): Column names in each table must be unique. Column name 'VisitStatusLogID' in table 'VisitStatus' is specified more than once.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:65a69021-90df-4572-a83b-12b06bee22b3
+Error Number:2705,State:4,Class:16
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.AccountController.Login (MediFusionPM) in 18407.8178ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Column names in each table must be unique. Column name 'VisitStatusLogID' in table 'VisitStatus' is specified more than once.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at MediFusionPM.Controllers.AccountController.Login(MainAccountVM model) in C:\Users\Lpt44\Desktop\Code\MediFusion\Controllers\AccountController.cs:line 480
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Elmah.Io.AspNetCore.ElmahIoMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:65a69021-90df-4572-a83b-12b06bee22b3
+Error Number:2705,State:4,Class:16
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22341.8214ms 500 text/html; charset=utf-8
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:c443e52b was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b caught restart signal...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:034a7d00 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:24e35a81 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6a371fe6 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:8450f921 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:d6924abd stopped in 0 ms
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:62b96560 stopped in 0.0803 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:75a8ed7d stopped in 0.0802 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:e54b303b stopped in 1.9535 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:b062007f stopped in 2.4198 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:30324978 stopped in 2.4499 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:d3f4e732 stopped in 2.4545 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fe2da917 stopped in 2.4615 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1fe80964 stopped in 3.5194 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:91cf2b26 stopped in 3.5194 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2ebdd646 stopped in 4.2126 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cfb89fe0 stopped in 4.2126 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d8f7595 stopped in 4.9828 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:25282cc5 stopped in 4.9828 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fbf7ec7f stopped in 7.1315 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:806918a8 stopped in 7.1315 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fcff02bb stopped in 1640.6815 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b2c7da39 stopped in 1652.1349 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0eb8e4fc stopped in 1653.8446 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3c4a96f1 stopped in 1672.0406 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b0db0086 stopped in 1673.7559 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:db6b5225 stopped in 3041.9744 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b successfully reported itself as stopped in 3124.3676 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:c443e52b has been stopped in total 3197.7264 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:42c50989 stopped in 3349.1959 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c successfully announced in 329.4206 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:5a558810 has started in 14.3363 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:179aa245 has started in 9.2729 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:fceb9e58 has started in 12.3155 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:7144ecad has started in 19.0616 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:21c12e40 has started in 14.1365 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f3ce63b6 has started in 17.6599 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d01c3c3c has started in 27.0525 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:557e7c27 has started in 31.1455 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1b126f77 has started in 35.7143 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:44e4321c has started in 41.2848 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:064f957a has started in 47.5907 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d0079dd6 has started in 54.2545 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0e46af49 has started in 62.695 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:379e6b2a has started in 78.1548 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d5d67bea has started in 78.1656 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:314f0295 has started in 78.2407 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7a08daa6 has started in 84.6038 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:460da5e9 has started in 92.7408 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:49e86d74 has started in 103.3673 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2b972834 has started in 103.3526 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:02d3beeb has started in 109.2586 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5f2bf3a9 has started in 114.4189 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4cc077c0 has started in 120.8046 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:77891187 has started in 124.8659 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d061c066 has started in 129.5075 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:c85be04c has started in 13.8805 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:c393c49c has started in 14.5785 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b3ffab1c heartbeat successfully sent
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/Account/Login application/json 605
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(MediFusionPM.ViewModels.Main.MainAccountVM) on controller MediFusionPM.Controllers.AccountController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.AccountController.Login (MediFusionPM) - Validation state: Valid
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b3ffab1c was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c caught restart signal...
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:179aa245 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:fceb9e58 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:5a558810 stopped in 0.0437 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:557e7c27 stopped in 0.068 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:21c12e40 stopped in 0.692 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:7144ecad stopped in 0.7321 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d01c3c3c stopped in 16.2723 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d0079dd6 stopped in 26.1803 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:44e4321c stopped in 26.2107 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d5d67bea stopped in 38.5495 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7a08daa6 stopped in 43.3694 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:49e86d74 stopped in 54.9252 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2b972834 stopped in 54.9528 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5f2bf3a9 stopped in 66.5637 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4cc077c0 stopped in 68.5464 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d061c066 stopped in 69.5339 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c successfully reported itself as stopped in 372.0526 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b3ffab1c has been stopped in total 399.3961 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:c393c49c stopped in 653.5351 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:c85be04c stopped in 661.6157 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 successfully announced in 581.7968 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:61acb3e7 has started in 27.9696 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:0a5f55ca has started in 42.1348 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:346c7774 has started in 33.7514 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:561b7282 has started in 33.3868 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:996d5c83 has started in 28.3747 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:63f4b4a7 has started in 41.8386 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:bfd71767 has started in 45.0719 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:51f9fc3d has started in 55.2396 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ff895c98 has started in 74.2553 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:89ab1d62 has started in 74.6752 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5800bf14 has started in 80.0351 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a191359f has started in 86.5406 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9692e7d2 has started in 93.6215 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:80a8f70c has started in 99.3347 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0b7e0a4e has started in 105.1759 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:24b58001 has started in 110.2827 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e43cf394 has started in 119.685 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d5a1de26 has started in 125.1077 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:32b473f0 has started in 131.4344 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:292a51f1 has started in 137.2612 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:98cf09d0 has started in 147.043 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:06e24c19 has started in 152.4312 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1b3f56a3 has started in 159.5012 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e4c5f63d has started in 165.9284 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5cd04822 has started in 175.0229 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:9098a863 has started in 18.1833 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:9417c330 has started in 12.7193 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f3ce63b6 stopped in 1361.5576 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0e46af49 stopped in 1714.6022 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:064f957a stopped in 1748.8053 ms
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Identity.Application signed in.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1b126f77 stopped in 2089.8394 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:460da5e9 stopped in 2089.8394 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:379e6b2a stopped in 2100.4984 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:02d3beeb stopped in 2328.2258 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:77891187 stopped in 2722.7929 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:314f0295 stopped in 3149.767 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (323ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (353ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (331ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20200623100843_AddVisitStatusLogIDINVisitStatus'.
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (321ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      ALTER TABLE [VisitStatus] ADD [VisitStatusLogID] bigint NULL;
+System.Data.SqlClient.SqlException (0x80131904): Column names in each table must be unique. Column name 'VisitStatusLogID' in table 'VisitStatus' is specified more than once.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:65a69021-90df-4572-a83b-12b06bee22b3
+Error Number:2705,State:4,Class:16
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.AccountController.Login (MediFusionPM) in 71675.1345ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.Data.SqlClient.SqlException (0x80131904): Column names in each table must be unique. Column name 'VisitStatusLogID' in table 'VisitStatus' is specified more than once.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.MigrationCommand.ExecuteNonQuery(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.MigrationCommandExecutor.ExecuteNonQuery(IEnumerable`1 migrationCommands, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Migrations.Internal.Migrator.Migrate(String targetMigration)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at MediFusionPM.Controllers.AccountController.Login(MainAccountVM model) in C:\Users\Lpt44\Desktop\Code\MediFusion\Controllers\AccountController.cs:line 480
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Elmah.Io.AspNetCore.ElmahIoMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:65a69021-90df-4572-a83b-12b06bee22b3
+Error Number:2705,State:4,Class:16
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 71929.3527ms 500 text/html; charset=utf-8
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:378bc469 was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 caught restart signal...
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:61acb3e7 stopped in 0.0585 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ff895c98 stopped in 0.0602 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:9417c330 stopped in 0.239 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:9098a863 stopped in 0.2372 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:996d5c83 stopped in 0.1129 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:561b7282 stopped in 1.8383 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:346c7774 stopped in 1.8676 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:0a5f55ca stopped in 1.8857 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:80a8f70c stopped in 18.2314 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9692e7d2 stopped in 18.2314 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e43cf394 stopped in 39.3786 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:24b58001 stopped in 39.3786 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:292a51f1 stopped in 44.4981 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:06e24c19 stopped in 73.4725 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1b3f56a3 stopped in 73.5253 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5cd04822 stopped in 78.1274 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 successfully reported itself as stopped in 321.7495 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:378bc469 has been stopped in total 341.1727 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:bfd71767 stopped in 396.9326 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:89ab1d62 stopped in 461.6407 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 successfully announced in 339.3938 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:e56f41f1 has started in 12.5239 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:f9ec7c82 has started in 14.8256 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:f0bee2c0 has started in 11.9242 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:5cf818f3 has started in 17.2811 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:39d3ab79 has started in 13.3851 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:20131015 has started in 18.257 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c68f1758 has started in 23.6292 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5c3d031a has started in 30.9265 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d6b21db has started in 38.6211 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c2a05e50 has started in 45.3049 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6a35288a has started in 45.3466 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:65ae8b96 has started in 51.1933 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7d455838 has started in 56.1031 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f9ffd7c7 has started in 61.5459 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0415e138 has started in 64.7845 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f3233509 has started in 68.3779 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:94146d9b has started in 71.3577 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:166f326a has started in 75.5081 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9dd738e5 has started in 79.0909 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:36e7e98b has started in 83.4047 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e1c7608d has started in 86.8472 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:aa65b312 has started in 90.8173 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:caa9d6e0 has started in 98.5978 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8f78667c has started in 102.3985 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0afe25ac has started in 108.0574 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:a45bcab4 has started in 11.5198 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:5a3933e8 has started in 13.7088 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:63f4b4a7 stopped in 928.3366 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a191359f stopped in 946.1522 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:51f9fc3d stopped in 1429.7521 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0b7e0a4e stopped in 1761.7433 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5800bf14 stopped in 1761.7433 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d5a1de26 stopped in 1764.1828 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:98cf09d0 stopped in 1774.2916 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:32b473f0 stopped in 1774.4285 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e4c5f63d stopped in 3153.0555 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:7e3a0a39 was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 caught restart signal...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:5cf818f3 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:a45bcab4 stopped in 0.2749 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:39d3ab79 stopped in 2.4832 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:65ae8b96 stopped in 2.5154 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:f9ec7c82 stopped in 2.6194 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:f0bee2c0 stopped in 2.7583 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:5a3933e8 stopped in 2.7987 ms
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:e56f41f1 stopped in 49.3414 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0415e138 stopped in 73.8505 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:aa65b312 stopped in 73.8505 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9dd738e5 stopped in 142.3119 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:36e7e98b stopped in 142.3119 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8f78667c stopped in 149.9895 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0afe25ac stopped in 149.9869 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 successfully reported itself as stopped in 339.3618 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:7e3a0a39 has been stopped in total 476.4041 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a successfully announced in 336.1801 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:712d40cb has started in 20.1013 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:cb84e1ee has started in 29.4672 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:5d03241f has started in 28.2411 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:1b928f35 has started in 27.0642 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:f3b04483 has started in 20.4674 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e99d9298 has started in 38.8062 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:96e1edcf has started in 48.0722 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:979319fe has started in 54.3715 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b4d95611 has started in 66.2118 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2442b54d has started in 76.4279 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:22ecbaa1 has started in 82.8274 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d0f25e8 has started in 90.1554 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8d850a62 has started in 96.1481 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a079101c has started in 100.1971 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b44ec04f has started in 103.4146 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f0a6971e has started in 109.0382 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d6b21db stopped in 998.2502 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9b6cbdda has started in 114.4284 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7bf7ff0d has started in 117.9394 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8cd5de56 has started in 121.485 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cca786ab has started in 125.4028 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2c7e7f73 has started in 128.922 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:066e33c1 has started in 131.8762 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e61d0ce7 has started in 135.2468 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c136208c has started in 138.4138 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:73aa5dc8 has started in 141.8366 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:ffd0c6aa has started in 11.005 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:6dc114d2 has started in 9.5187 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5c3d031a stopped in 1203.5852 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:20131015 stopped in 1206.9905 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c2a05e50 stopped in 1209.3885 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:166f326a stopped in 1211.6483 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6a35288a stopped in 1226.3526 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c68f1758 stopped in 1280.7659 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7d455838 stopped in 1436.1737 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f9ffd7c7 stopped in 1787.7693 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:94146d9b stopped in 1787.8593 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f3233509 stopped in 1925.3972 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e1c7608d stopped in 1942.8837 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:caa9d6e0 stopped in 3360.357 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b8319c5a heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b8319c5a heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b8319c5a heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b8319c5a heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b8319c5a heartbeat successfully sent
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:b8319c5a was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a caught restart signal...
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:1b928f35 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:712d40cb stopped in 0.0513 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:979319fe stopped in 0.0893 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:6dc114d2 stopped in 0.1619 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:ffd0c6aa stopped in 1.673 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:f3b04483 stopped in 1.7198 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:5d03241f stopped in 1.7415 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:cb84e1ee stopped in 1.7703 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:22ecbaa1 stopped in 9.1471 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b4d95611 stopped in 9.251 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b44ec04f stopped in 38.12 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a079101c stopped in 38.224 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7bf7ff0d stopped in 49.0316 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cca786ab stopped in 52.1621 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:066e33c1 stopped in 52.6432 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:73aa5dc8 stopped in 59.2093 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c136208c stopped in 62.4184 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a successfully reported itself as stopped in 356.4092 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:b8319c5a has been stopped in total 410.2736 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd successfully announced in 341.7574 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:eac44054 has started in 20.7785 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:6aacc9de has started in 17.3914 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:6e45ea76 has started in 14.1499 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:9a54ac72 has started in 12.8029 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:53216dc0 has started in 12.6118 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0b0e7dca has started in 15.4778 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6376da96 has started in 18.5887 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:84332216 has started in 24.6841 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7bc5c121 has started in 29.9866 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2f3d4fa2 has started in 33.8662 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:edcc00cf has started in 40.4724 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:523bb203 has started in 45.4059 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1d43298e has started in 49.402 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a05a6a55 has started in 56.7577 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5a4b83de has started in 57.3297 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b5afcba1 has started in 61.8119 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f9c707ef has started in 66.5138 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b5f07654 has started in 72.0086 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:51cf7fdc has started in 78.1532 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b4880442 has started in 88.9554 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0134065a has started in 95.5831 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:edaf951f has started in 100.0908 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:befc3db0 has started in 105.3485 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:958325d4 has started in 110.3937 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0a435298 has started in 117.1412 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:82bc61e3 has started in 13.3889 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:53a11e4e has started in 11.4604 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e99d9298 stopped in 1052.3052 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:96e1edcf stopped in 1524.6262 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2442b54d stopped in 1829.9494 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2c7e7f73 stopped in 1829.9649 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f0a6971e stopped in 1847.8868 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d0f25e8 stopped in 1848.2728 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8cd5de56 stopped in 1848.2742 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9b6cbdda stopped in 1848.5225 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8d850a62 stopped in 2162.28 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e61d0ce7 stopped in 2171.1313 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:842276dd heartbeat successfully sent
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:842276dd was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd caught restart signal...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:82bc61e3 stopped in 0 ms
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0b0e7dca stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:6aacc9de stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:53a11e4e stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:6e45ea76 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f9c707ef stopped in 0.136 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:53216dc0 stopped in 0.4022 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:9a54ac72 stopped in 0.4132 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:eac44054 stopped in 0.0981 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b5f07654 stopped in 37.8369 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:edaf951f stopped in 44.9949 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b4880442 stopped in 45.0106 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0a435298 stopped in 53.175 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:523bb203 stopped in 291.5969 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd successfully reported itself as stopped in 339.3653 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:842276dd has been stopped in total 386.4898 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a05a6a55 stopped in 429.3763 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2f3d4fa2 stopped in 501.468 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:edcc00cf stopped in 518.8516 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5a4b83de stopped in 535.6082 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1d43298e stopped in 549.989 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 successfully announced in 328.5043 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b5afcba1 stopped in 732.7728 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:9517f352 has started in 16.3041 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:7fc383ed has started in 27.2316 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:c9d2fc42 has started in 30.0334 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:18be6760 has started in 45.0087 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:0c32a456 has started in 24.922 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:31d45cb6 has started in 28.2949 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:dc43296e has started in 36.5189 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2a5c741e has started in 43.1097 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:01eab768 has started in 49.0919 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:325c242d has started in 54.8616 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:017bb3f8 has started in 59.7179 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1ae23e81 has started in 67.068 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4d5992ee has started in 72.1703 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1101f79d has started in 78.1644 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d845b9ad has started in 84.1603 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f76a57b2 has started in 91.0596 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fb9e5dfd has started in 96.5172 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:72dc3b27 has started in 102.4047 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2219a409 has started in 108.3934 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2e5789b1 has started in 114.6414 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:96e0dacb has started in 121.5222 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5e3a4bbf has started in 127.2583 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e57f99e3 has started in 133.0696 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3fd46215 has started in 142.7735 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:41859906 has started in 22.3134 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fc966c79 has started in 157.2992 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:4cd2cef0 has started in 20.7467 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7bc5c121 stopped in 1423.5154 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6376da96 stopped in 1428.4297 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:84332216 stopped in 1587.3614 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:51cf7fdc stopped in 1700.8947 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:befc3db0 stopped in 1740.547 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0134065a stopped in 1760.0156 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:958325d4 stopped in 1761.57 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:1a1b4268 heartbeat successfully sent
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/Account/Login application/json 605
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(MediFusionPM.ViewModels.Main.MainAccountVM) on controller MediFusionPM.Controllers.AccountController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.AccountController.Login (MediFusionPM) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Identity.Application signed in.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (338ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (384ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (674ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (342ms) [Parameters=[@__appUser_ClientID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [u].[ID], [u].[AddedBy], [u].[AddedDate], [u].[Address], [u].[City], [u].[ContactNo], [u].[ContactPerson], [u].[ContextName], [u].[DeactivateionAdditionalInfo], [u].[DeactivationDate], [u].[DeactivationReason], [u].[FaxNo], [u].[IsClientCreatedSuccessfully], [u].[IsDeactivated], [u].[LastNewInsertsModifiedDate], [u].[LastNewTrigerModifiedDate], [u].[Name], [u].[OfficeEmail], [u].[OfficeHour], [u].[OfficePhoneNo], [u].[OrganizationName], [u].[ServiceLocation], [u].[State], [u].[TaxID], [u].[UpdatedBy], [u].[UpdatedDate], [u].[ZipCode]
+      FROM [Client] AS [u]
+      WHERE [u].[ID] = @__appUser_ClientID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (345ms) [Parameters=[@p26='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime2), @p14='?' (DbType = DateTime2), @p15='?' (Size = 60), @p16='?' (Size = 60), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 60), @p20='?' (Size = 4000), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = DateTime2), @p25='?' (Size = 4000)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      UPDATE [Client] SET [AddedBy] = @p0, [AddedDate] = @p1, [Address] = @p2, [City] = @p3, [ContactNo] = @p4, [ContactPerson] = @p5, [ContextName] = @p6, [DeactivateionAdditionalInfo] = @p7, [DeactivationDate] = @p8, [DeactivationReason] = @p9, [FaxNo] = @p10, [IsClientCreatedSuccessfully] = @p11, [IsDeactivated] = @p12, [LastNewInsertsModifiedDate] = @p13, [LastNewTrigerModifiedDate] = @p14, [Name] = @p15, [OfficeEmail] = @p16, [OfficeHour] = @p17, [OfficePhoneNo] = @p18, [OrganizationName] = @p19, [ServiceLocation] = @p20, [State] = @p21, [TaxID] = @p22, [UpdatedBy] = @p23, [UpdatedDate] = @p24, [ZipCode] = @p25
+      WHERE [ID] = @p26;
+      SELECT @@ROWCOUNT;
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.AccountController.Login (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17823.9466ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.AccountController.Login (MediFusionPM) in 17849.4779ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 17878.5704ms 200 text/plain; charset=utf-8
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:1a1b4268 was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 caught restart signal...
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:18be6760 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:9517f352 stopped in 0.1393 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:017bb3f8 stopped in 0.2666 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:4cd2cef0 stopped in 0.463 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:41859906 stopped in 0.4617 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:0c32a456 stopped in 8.0105 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:c9d2fc42 stopped in 9.8008 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:7fc383ed stopped in 9.8066 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:dc43296e stopped in 57.0153 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2a5c741e stopped in 57.0065 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f76a57b2 stopped in 58.798 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d845b9ad stopped in 58.9591 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:96e0dacb stopped in 64.3194 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2e5789b1 stopped in 64.3314 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 successfully reported itself as stopped in 318.5698 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:1a1b4268 has been stopped in total 350.7512 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:01eab768 stopped in 600.8977 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1101f79d stopped in 610.1672 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b successfully announced in 338.6658 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:78f61269 has started in 22.5657 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:3fc96c7d has started in 35.9257 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:e37bc4fd has started in 32.2818 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:fa1ed087 has started in 37.1163 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3fd46215 stopped in 809.1722 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fc966c79 stopped in 809.1729 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:14b5aecb has started in 37.0728 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ad1ee129 has started in 35.2149 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:61a5520d has started in 41.2958 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f60d0829 has started in 57.2805 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6aa20117 has started in 68.2278 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:aa598243 has started in 75.195 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4e7a7f6a has started in 75.8245 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d03261a4 has started in 79.2046 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:dc599af6 has started in 85.083 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:474888fe has started in 92.524 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:86c522c8 has started in 92.5731 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d2f89fd6 has started in 96.7432 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:18c4a4ea has started in 101.998 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cb7d9c24 has started in 105.8492 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0501dfa8 has started in 108.9401 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:713a43fe has started in 112.6619 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3d3d5d96 has started in 121.1741 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:92c3348f has started in 123.9032 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:91c64de0 has started in 127.141 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ac9e4918 has started in 132.5809 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:17de857c has started in 135.4221 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:5cfe3b1a has started in 17.2741 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:d452c5a3 has started in 16.7418 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5e3a4bbf stopped in 1096.9634 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4d5992ee stopped in 1132.5677 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:72dc3b27 stopped in 1136.0196 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e57f99e3 stopped in 1136.009 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:31d45cb6 stopped in 1723.2378 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:325c242d stopped in 1770.8862 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2219a409 stopped in 1772.9789 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1ae23e81 stopped in 1778.125 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fb9e5dfd stopped in 1786.6516 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:6d853f7b heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:6d853f7b heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:6d853f7b heartbeat successfully sent
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/Account/Login application/json 606
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Object] Login(MediFusionPM.ViewModels.Main.MainAccountVM) on controller MediFusionPM.Controllers.AccountController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.AccountController.Login (MediFusionPM) - Validation state: Valid
+info: Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler[10]
+      AuthenticationScheme: Identity.Application signed in.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (354ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (335ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (713ms) [Parameters=[], CommandType='Text', CommandTimeout='96000']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20405]
+      No migrations were applied. The database is already up to date.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (333ms) [Parameters=[@__appUser_ClientID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [u].[ID], [u].[AddedBy], [u].[AddedDate], [u].[Address], [u].[City], [u].[ContactNo], [u].[ContactPerson], [u].[ContextName], [u].[DeactivateionAdditionalInfo], [u].[DeactivationDate], [u].[DeactivationReason], [u].[FaxNo], [u].[IsClientCreatedSuccessfully], [u].[IsDeactivated], [u].[LastNewInsertsModifiedDate], [u].[LastNewTrigerModifiedDate], [u].[Name], [u].[OfficeEmail], [u].[OfficeHour], [u].[OfficePhoneNo], [u].[OrganizationName], [u].[ServiceLocation], [u].[State], [u].[TaxID], [u].[UpdatedBy], [u].[UpdatedDate], [u].[ZipCode]
+      FROM [Client] AS [u]
+      WHERE [u].[ID] = @__appUser_ClientID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (331ms) [Parameters=[@p26='?' (DbType = Int64), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime2), @p14='?' (DbType = DateTime2), @p15='?' (Size = 60), @p16='?' (Size = 60), @p17='?' (Size = 4000), @p18='?' (Size = 4000), @p19='?' (Size = 60), @p20='?' (Size = 4000), @p21='?' (Size = 4000), @p22='?' (Size = 4000), @p23='?' (Size = 4000), @p24='?' (DbType = DateTime2), @p25='?' (Size = 4000)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      UPDATE [Client] SET [AddedBy] = @p0, [AddedDate] = @p1, [Address] = @p2, [City] = @p3, [ContactNo] = @p4, [ContactPerson] = @p5, [ContextName] = @p6, [DeactivateionAdditionalInfo] = @p7, [DeactivationDate] = @p8, [DeactivationReason] = @p9, [FaxNo] = @p10, [IsClientCreatedSuccessfully] = @p11, [IsDeactivated] = @p12, [LastNewInsertsModifiedDate] = @p13, [LastNewTrigerModifiedDate] = @p14, [Name] = @p15, [OfficeEmail] = @p16, [OfficeHour] = @p17, [OfficePhoneNo] = @p18, [OrganizationName] = @p19, [ServiceLocation] = @p20, [State] = @p21, [TaxID] = @p22, [UpdatedBy] = @p23, [UpdatedDate] = @p24, [ZipCode] = @p25
+      WHERE [ID] = @p26;
+      SELECT @@ROWCOUNT;
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.AccountController.Login (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14887.5848ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.AccountController.Login (MediFusionPM) in 14913.2096ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 14952.5695ms 200 text/plain; charset=utf-8
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:6d853f7b heartbeat successfully sent
+dbug: Hangfire.Server.RecurringJobScheduler[0]
+      An exception was thrown during acquiring distributed lock the recurring-jobs:lock resource within 60 seconds. The recurring jobs have not been handled this time.
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:recurring-jobs:lock' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock(JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.DelayedJobScheduler[0]
+      An exception was thrown during acquiring distributed lock on the locks:schedulepoller resource within 60 seconds. The scheduled jobs have not been handled this time.
+It will be retried in 15 seconds
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:locks:schedulepoller' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:6d853f7b heartbeat successfully sent
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:6d853f7b was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b caught restart signal...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:e37bc4fd stopped in 0 ms
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d2f89fd6 stopped in 0.1003 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:78f61269 stopped in 0.0942 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:3fc96c7d stopped in 0.2179 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:14b5aecb stopped in 0.307 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:fa1ed087 stopped in 0.3776 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f60d0829 stopped in 2.1317 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4e7a7f6a stopped in 14.4014 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:dc599af6 stopped in 17.9549 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:86c522c8 stopped in 21.783 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cb7d9c24 stopped in 33.0709 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:92c3348f stopped in 35.6198 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ac9e4918 stopped in 41.5924 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3d3d5d96 stopped in 357.623 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b successfully reported itself as stopped in 367.2908 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:6d853f7b has been stopped in total 461.7108 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 successfully announced in 350.1019 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:f16efa68 has started in 18.4898 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:bd1556d3 has started in 22.1201 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:25701fc2 has started in 22.6433 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:6080d125 has started in 24.4921 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:7b7af497 has started in 9.0943 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:140815de has started in 17.5451 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4a50523e has started in 29.0066 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:132d8bb0 has started in 28.9896 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:321997b0 has started in 34.0843 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:40b661f1 has started in 39.1621 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:38640dc5 has started in 42.8391 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:223e4095 has started in 47.5247 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fa6bf634 has started in 51.4325 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:17a9e58c has started in 57.5658 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:84501f33 has started in 61.2741 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0cfd08e0 has started in 65.5629 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:37a39415 has started in 73.4117 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:92bcb8ad has started in 76.963 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:18f7a683 has started in 80.1324 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:bc2dcc9a has started in 85.5034 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ce28798e has started in 90.0438 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8d4812e3 has started in 94.0091 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:87430950 has started in 98.8864 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6613e9ae has started in 105.542 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:130b3384 has started in 110.9441 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:a868716a has started in 13.5229 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:2a2fc95d has started in 14.6822 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ad1ee129 stopped in 1438.8321 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:aa598243 stopped in 1447.5742 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:713a43fe stopped in 1527.0597 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:91c64de0 stopped in 1533.0935 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:61a5520d stopped in 1688.9765 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d03261a4 stopped in 1691.2141 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6aa20117 stopped in 1696.5436 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:474888fe stopped in 1729.2547 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:18c4a4ea stopped in 1843.2369 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0501dfa8 stopped in 1870.371 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:17de857c stopped in 1870.371 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:d452c5a3 stopped in 10917.9616 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:5cfe3b1a stopped in 10917.9786 ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/jobs/CheckNumbers application/json 36
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 32.1651ms 404 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0NFMPHUT01", Request id "0HM0NFMPHUT01:00000001": the application completed without reading the entire request body.
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:722dc7a1 heartbeat successfully sent
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/jobs/CheckNumbers application/json 36
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 16.567ms 404 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0NFMPHUT01", Request id "0HM0NFMPHUT01:00000002": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/jobs/CheckNumbers application/json 36
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.4293ms 404 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0NFMPHUT01", Request id "0HM0NFMPHUT01:00000003": the application completed without reading the entire request body.
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:722dc7a1 was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 caught restart signal...
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:17a9e58c stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:223e4095 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:321997b0 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:7b7af497 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:37a39415 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:87430950 stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:bc2dcc9a stopped in 0 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:2a2fc95d stopped in 0.0244 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:25701fc2 stopped in 0.0168 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:f16efa68 stopped in 0.041 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:a868716a stopped in 0.0629 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:bd1556d3 stopped in 0.062 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:6080d125 stopped in 0.0873 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:130b3384 stopped in 359.3878 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 successfully reported itself as stopped in 341.811 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:722dc7a1 has been stopped in total 377.2125 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:fa6bf634 stopped in 414.5995 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:21cc8613 successfully announced in 351.3759 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:21cc8613 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:2482fcd9 has started in 23.5056 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:b2540eaa has started in 34.3477 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:74198dd1 has started in 33.7225 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:6922eeb3 has started in 44.7454 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:9db21552 has started in 34.3216 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:92bcb8ad stopped in 864.6406 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:132d8bb0 stopped in 864.6407 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:db82dab2 has started in 31.9471 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:140815de stopped in 866.7847 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:3dee6d28 has started in 32.0587 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:84986557 has started in 47.8941 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b665d8cb has started in 53.8876 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:b6b049a9 has started in 65.4268 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:48775549 has started in 65.6959 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1db31b7d has started in 83.1308 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d6b5fba2 has started in 83.2155 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9d0f009d has started in 108.8135 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8c77ffc4 has started in 118.3163 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8cb06d61 has started in 122.6592 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6353effb has started in 125.8885 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1c7d7928 has started in 131.985 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:13d78314 has started in 140.994 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ce909d4d has started in 140.9994 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d78010a8 has started in 146.6049 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:485247fd has started in 154.6524 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:164e8d1c has started in 160.0812 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:02889565 has started in 167.0278 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:2d71b5d4 has started in 171.5293 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:21cc8613 all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:772682fb has started in 12.5904 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:d0b30a5a has started in 12.9747 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:38640dc5 stopped in 1140.9538 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:84501f33 stopped in 1444.2597 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:8d4812e3 stopped in 1558.8903 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:40b661f1 stopped in 1567.8148 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ce28798e stopped in 1640.6073 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0cfd08e0 stopped in 1703.7892 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4a50523e stopped in 1704.8532 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:18f7a683 stopped in 1716.5701 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6613e9ae stopped in 1740.7465 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/jobs/DuplicateCheckNum application/json 36
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "CheckNumbers", controller = "Jobs"}. Executing controller action with signature Void CheckNumbers(CheckList) on controller MediFusionPM.Controllers.JobsController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.JobsController.CheckNumbers (MediFusionPM) - Validation state: Valid
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.JobsController.CheckNumbers (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 13100.9965ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.JobsController.CheckNumbers (MediFusionPM) in 13116.9046ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 19044.9858ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44306/api/jobs/DuplicateCheckNum application/json 36
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "CheckNumbers", controller = "Jobs"}. Executing controller action with signature Void CheckNumbers(CheckList) on controller MediFusionPM.Controllers.JobsController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.JobsController.CheckNumbers (MediFusionPM) - Validation state: Valid
+warn: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:22828:21cc8613 was considered dead by other servers, restarting...
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:21cc8613 caught restart signal...
+warn: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:22828:21cc8613 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:6922eeb3 stopped in 0 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

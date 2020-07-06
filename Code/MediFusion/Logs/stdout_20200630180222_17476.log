@@ -1,0 +1,879 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Lpt44\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Start installing Hangfire SQL objects...
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Hangfire SQL objects installed.
+warn: Microsoft.AspNetCore.Identity.UserManager[5]
+      User 18ff91d7-4b13-497c-8735-c496adff21e5 is already in role SuperAdmin.
+info: Hangfire.BackgroundJobServer[0]
+      Starting Hangfire Server using job storage: 'SQL Server: 96.69.218.154\SQLEXPRESS@Hangfire'
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for Hangfire Server:
+          Worker count: 20
+          Listening queues: 'default'
+          Shutdown timeout: 00:00:15
+          Schedule polling interval: 00:00:15
+Hosting environment: Development
+Content root path: C:\Users\Lpt44\Desktop\Code\MediFusion
+Now listening on: http://127.0.0.1:13964
+Application started. Press Ctrl+C to shut down.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop BackgroundServerProcess:8a1f8cc2 has started in 8.4145 ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:57181/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 77.1985ms 307 
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:12756:658d4e10 successfully announced in 388.5759 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:8899c9f3 has started in 2.4503 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:12756:658d4e10 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:be12b825 has started in 0.6122 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:790bf4e7 has started in 0.2212 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:ac5afc6f has started in 0.6908 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:b02bc433 has started in 1.0316 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:945fe4d3 has started in 0.9 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f9bc150a has started in 1.372 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:01fdbab7 has started in 2.8163 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f018381f has started in 3.6993 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a4c94b28 has started in 4.1396 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e3eaf58b has started in 4.3558 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ce274fc8 has started in 5.0279 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:83111928 has started in 5.7135 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:82c07e1b has started in 6.2502 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0a3f617f has started in 7.0336 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:890a11b0 has started in 7.5022 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:14acf9a1 has started in 7.7415 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e5430228 has started in 8.3608 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0a0223b2 has started in 8.8426 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:a2ec9e42 has started in 9.3047 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:265deb6f has started in 9.8979 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:db1c100b has started in 10.2973 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:9156582a has started in 10.5153 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:26e5b955 has started in 10.7101 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:14dc042d has started in 10.9183 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:7bc952e4 has started in 0.1815 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:b8c8b6c8 has started in 0.3706 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:12756:658d4e10 all the dispatchers started
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

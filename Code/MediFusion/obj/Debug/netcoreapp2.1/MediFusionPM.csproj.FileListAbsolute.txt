@@ -1,0 +1,70 @@
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\web.config
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.deps.json
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.json
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.dev.json
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.dll
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.pdb
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.csprojAssemblyReference.cache
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cache
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cs
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfoInputs.cache
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfo.cs
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorTargetAssemblyInfo.cache
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.dll
+C:\Users\LPT62\Desktop\last live\Code\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.pdb
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\web.config
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.deps.json
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.json
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.dev.json
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.dll
+C:\Users\Lpt44\Desktop\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.pdb
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cache
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cs
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfoInputs.cache
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfo.cs
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorTargetAssemblyInfo.cache
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.dll
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.pdb
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\web.config
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.deps.json
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.json
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.dev.json
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.dll
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.pdb
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.csprojAssemblyReference.cache
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.csproj.CoreCompileInputs.cache
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cache
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cs
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfoInputs.cache
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfo.cs
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorTargetAssemblyInfo.cache
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.dll
+E:\Med Fusion\Pro\LATEST CODES\06052020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.pdb
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\web.config
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.deps.json
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.json
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.runtimeconfig.dev.json
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.dll
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\bin\Debug\netcoreapp2.1\MediFusionPM.pdb
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.csproj.CoreCompileInputs.cache
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cache
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorAssemblyInfo.cs
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfoInputs.cache
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.AssemblyInfo.cs
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.RazorTargetAssemblyInfo.cache
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.dll
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.pdb
+E:\Med Fusion\Pro\LATEST CODES\06112020\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.csprojAssemblyReference.cache
+C:\Users\Lpt44\Desktop\Code\MediFusion\obj\Debug\netcoreapp2.1\MediFusionPM.csprojAssemblyReference.cache

@@ -1,0 +1,16 @@
+/api/Account/Login		The process cannot access the file 'C:\Users\Lpt44\Desktop\Code\MediFusion\wwwroot\InOutLog.txt' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at MediFusionPM.Startup.<>c__DisplayClass6_0.<<Configure>b__2>d.MoveNext() in C:\Users\Lpt44\Desktop\Code\MediFusion\Startup.cs:line 215
+/api/values		The process cannot access the file 'C:\Users\Lpt44\Desktop\Code\MediFusion\wwwroot\InOutLog.txt' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at MediFusionPM.Startup.<>c__DisplayClass6_0.<<Configure>b__2>d.MoveNext() in C:\Users\Lpt44\Desktop\Code\MediFusion\Startup.cs:line 215

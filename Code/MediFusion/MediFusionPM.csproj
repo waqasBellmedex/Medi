@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\TodoController.cs" />
+    <Compile Remove="Migrations\20200217151826_AddExInsuranceMappingInMain.cs" />
+    <Compile Remove="Migrations\20200217151826_AddExInsuranceMappingInMain.Designer.cs" />
+    <Compile Remove="Migrations\20200327100224_MakeNUllableNumberOfFullTimeEmployees.cs" />
+    <Compile Remove="Migrations\20200327100224_MakeNUllableNumberOfFullTimeEmployees.Designer.cs" />
+    <Compile Remove="Migrations\20200414175227_RemoveFieldsFromPractice.cs" />
+    <Compile Remove="Migrations\20200414175227_RemoveFieldsFromPractice.Designer.cs" />
+    <Compile Remove="Migrations\20200418100158_CheckingForUpdates.cs" />
+    <Compile Remove="Migrations\20200418100158_CheckingForUpdates.Designer.cs" />
+    <Compile Remove="Migrations\20200424102700_AddPLDDirectoryInMainPractice.cs" />
+    <Compile Remove="Migrations\20200424102700_AddPLDDirectoryInMainPractice.Designer.cs" />
+    <Compile Remove="Migrations\20200513094712_AddIsEmailAppointmentReminderinPractice.cs" />
+    <Compile Remove="Migrations\20200513094712_AddIsEmailAppointmentReminderinPractice.Designer.cs" />
+    <Compile Remove="Migrations\20200527112634_AddSMSModelInMain.cs" />
+    <Compile Remove="Migrations\20200527112634_AddSMSModelInMain.Designer.cs" />
+    <Compile Remove="Migrations\20200603135159_AddPracticeIDINExInsuranceCorrectly.cs" />
+    <Compile Remove="Migrations\20200603135159_AddPracticeIDINExInsuranceCorrectly.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200226142201_AddSaadModels.cs" />
+    <Compile Remove="Migrations\ClientDb\20200226142201_AddSaadModels.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200312141001_AddAdmissionTypeCode.cs" />
+    <Compile Remove="Migrations\ClientDb\20200312141001_AddAdmissionTypeCode.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200406110904_AddAsifSabChanges.cs" />
+    <Compile Remove="Migrations\ClientDb\20200406110904_AddAsifSabChanges.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200406113903_AddAsifSabChanges.cs" />
+    <Compile Remove="Migrations\ClientDb\20200406113903_AddAsifSabChanges.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200406114312_AddAsifSabChanges.cs" />
+    <Compile Remove="Migrations\ClientDb\20200406114312_AddAsifSabChanges.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200427125607_AddDocumentBatchAppliedInPaymentCheck.cs" />
+    <Compile Remove="Migrations\ClientDb\20200427125607_AddDocumentBatchAppliedInPaymentCheck.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200505154234_AddAsifSabChanges05052020.cs" />
+    <Compile Remove="Migrations\ClientDb\20200505154234_AddAsifSabChanges05052020.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200521115509_AddPrescribingMDInClaimData.cs" />
+    <Compile Remove="Migrations\ClientDb\20200521115509_AddPrescribingMDInClaimData.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200522095439_AddInstitutionalDataFieldInVisit.cs" />
+    <Compile Remove="Migrations\ClientDb\20200522095439_AddInstitutionalDataFieldInVisit.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200526163328_SetExternalInjuryCodeIDinInsData.cs" />
+    <Compile Remove="Migrations\ClientDb\20200526163328_SetExternalInjuryCodeIDinInsData.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200527111940_DropTableSMSSentReceivedfromClient.cs" />
+    <Compile Remove="Migrations\ClientDb\20200527111940_DropTableSMSSentReceivedfromClient.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200610135801_AddNumberofVisitsEnteredInBatchDocsCharge.cs" />
+    <Compile Remove="Migrations\ClientDb\20200610135801_AddNumberofVisitsEnteredInBatchDocsCharge.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200610140101_AddNumberofVisitsEnteredInBatchDocsCharge.cs" />
+    <Compile Remove="Migrations\ClientDb\20200610140101_AddNumberofVisitsEnteredInBatchDocsCharge.Designer.cs" />
+    <Compile Remove="Migrations\ClientDb\20200625094811_AddPatientFamilyHistory.cs" />
+    <Compile Remove="Migrations\ClientDb\20200625094811_AddPatientFamilyHistory.Designer.cs" />
+    <Compile Remove="Models\IdentityModel.cs" />
+    <Compile Remove="Models\TodoItem.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.10.0-beta0002" />
+    <PackageReference Include="Elmah.Io.AspNetCore" Version="3.8.91-pre" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.45.0" />
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.45.0.1949" />
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.45.0.1965" />
+    <PackageReference Include="Hangfire" Version="1.7.10" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.10" />
+    <PackageReference Include="itext7" Version="7.1.10" />
+    <PackageReference Include="itext7.pdfhtml" Version="2.1.7" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IIS" Version="2.2.0-preview1-35029" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.14" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+    <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="150.18208.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Plivo" Version="4.8.0" />
+    <PackageReference Include="Renci.SshNet.Async" Version="1.4.0" />
+    <PackageReference Include="RingCentral.Net" Version="3.2.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0-preview1.19504.10" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="System.Runtime.InteropServices" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BusinessLogic\HCFAPrinting\" />
+    <Folder Include="BusinessLogic\ERAParsing\" />
+    <Folder Include="Resources\NewFolder\" />
+    <Folder Include="Uitilities\" />
+  </ItemGroup>
+
+</Project>

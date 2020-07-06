@@ -1,0 +1,1485 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Lpt44\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Start installing Hangfire SQL objects...
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Hangfire SQL objects installed.
+warn: Microsoft.AspNetCore.Identity.UserManager[5]
+      User 18ff91d7-4b13-497c-8735-c496adff21e5 is already in role SuperAdmin.
+info: Hangfire.BackgroundJobServer[0]
+      Starting Hangfire Server using job storage: 'SQL Server: 96.69.218.154\SQLEXPRESS@Hangfire'
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for Hangfire Server:
+          Worker count: 20
+          Listening queues: 'default'
+          Shutdown timeout: 00:00:15
+          Schedule polling interval: 00:00:15
+Hosting environment: Development
+Content root path: C:\Users\Lpt44\Desktop\Code\MediFusion
+Now listening on: http://127.0.0.1:37561
+Application started. Press Ctrl+C to shut down.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop BackgroundServerProcess:28a25e80 has started in 11.8075 ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44306/api/values  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:57181/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 58.9995ms 200 
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:15172:20f700ce successfully announced in 361.114 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:371cb1ac has started in 5.679 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:15172:20f700ce is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:ea525b24 has started in 4.5044 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:97db4713 has started in 9.1841 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:ee480207 has started in 29.1131 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:092c0308 has started in 8.9441 ms
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5f3d44d5 has started in 10.8799 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:ffa9f69c has started in 14.905 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:66b266c7 has started in 20.8951 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:04f51253 has started in 48.8762 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:c0cfe222 has started in 49.0083 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:27ecf9da has started in 52.7704 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:cf98b1bd has started in 56.8711 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:e3543a73 has started in 61.6685 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:38c0feb0 has started in 68.1031 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:367e447d has started in 74.9779 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5c00fff2 has started in 78.5021 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1709174a has started in 87.4017 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:79065064 has started in 87.507 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:7f388ccc has started in 88.3401 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:5c91c032 has started in 93.8261 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:71b7f7d1 has started in 99.0639 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f6eadb66 has started in 107.2651 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:be9507c1 has started in 112.4535 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0cbbfc45 has started in 126.1883 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:04cf741f has started in 14.6194 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:baf6781f has started in 126.235 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:15172:20f700ce all the dispatchers started
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:998fbcf3 has started in 19.0122 ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller MediFusionPM.Controllers.ValuesController (MediFusionPM).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.ValuesController.Get (MediFusionPM) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.ValuesController.Get (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6303ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String[]'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.ValuesController.Get (MediFusionPM) in 44.8752ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1069.4479ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44306/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 94.3741ms 404 
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE http://localhost:44306/api/PaymentCheck/DeletePaymentCheck/10249 application/json 5
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "DeletePaymentCheck", controller = "PaymentCheck"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePaymentCheck(System.Nullable`1[System.Int64]) on controller MediFusionPM.Controllers.PaymentCheckController (MediFusionPM).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) - Validation state: Valid
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'AppointmentCPT'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TotalAmount' on entity type 'AppointmentCPT'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'BatchDocumentCharges'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatientAmount' on entity type 'BatchDocumentCharges'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Applied' on entity type 'BatchDocumentPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CheckAmount' on entity type 'BatchDocumentPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'UnApplied' on entity type 'BatchDocumentPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Coinsurance' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Deductible' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Discount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier1Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier2Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier3Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Modifier4Amount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatResp' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryAllowed' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBilledAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPatientBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryTransferred' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryWriteOff' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryAllowed' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBilledAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatResp' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatientBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryTransferred' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryWriteOff' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryAllowed' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBilledAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPaid' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatResp' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatientBal' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryTransferred' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryWriteOff' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TotalAmount' on entity type 'Charge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'ChargeStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'ChargeStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'ChargeStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'ChargeSubmissionHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Price' on entity type 'ClinicalFormsCPT'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'Cpt'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'MedicareAmount' on entity type 'Cpt'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'NonFacilityAmount' on entity type 'Cpt'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Adj' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Balance' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Charges' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'InsurancePayment' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPayment' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBal' on entity type 'ExternalCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'RemainingDeductible' on entity type 'ExternalPatient'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Adj' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Balance' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Charges' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'InsurancePayment' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPayment' on entity type 'ExternalPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'DefaultFees' on entity type 'Modifier'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'RemainingDeductible' on entity type 'Patient'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PracticeID' on entity type 'PatientAllergy'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AuthorizedAmount' on entity type 'PatientAuthorization'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BenefitAmount' on entity type 'PatientEligibilityDetail'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllocatedAmount' on entity type 'PatientPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaymentAmount' on entity type 'PatientPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'RemainingAmount' on entity type 'PatientPayment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllocatedAmount' on entity type 'PatientPaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CoInsurance' on entity type 'PatientPlan'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'PatientPlan'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Deductible' on entity type 'PatientPlan'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'amount' on entity type 'PatientStatement'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'amount' on entity type 'PatientStatementChargeHistory'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BMI' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BPDiastolic' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BPSystolic' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'HeadCircumference' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Height_cm' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Height_foot' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OxygenSaturation' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PracticeID' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Pulse' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Respiratory_rate' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Temperature' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Weight_lbs' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Weight_pounds' on entity type 'PatientVitals'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AppliedAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CheckAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PostedAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'UnAppliedAmount' on entity type 'PaymentCheck'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Amount' on entity type 'PaymentLedger'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'FTEPerDayRate' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'FTEPerMonthRate' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'FTEPerWeekRate' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'MinimumMonthlyAmount' on entity type 'Practice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'ClaimAmount' on entity type 'SubmissionLog'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount1' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount2' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount3' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount4' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AdjustmentAmount5' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllowedAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CoinsuranceAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'DeductableAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatResp' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'WriteoffAmount' on entity type 'PaymentCharge'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'AllowedAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'WriteOffAmount' on entity type 'PaymentVisit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Coinsurance' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Copay' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'CopayPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Deductible' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'Discount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'LabCharges' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'MovedToAdvancePayment' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'OtherPatResp' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PatientPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryAllowed' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryBilledAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryPatientBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryTransferred' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PrimaryWriteOff' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryAllowed' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryBilledAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatResp' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryPatientBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryTransferred' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'SecondaryWriteOff' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryAllowed' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryBilledAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPaid' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatResp' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryPatientBal' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryTransferred' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TertiaryWriteOff' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'TotalAmount' on entity type 'Visit'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'BilledAmount' on entity type 'VisitStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'PaidAmount' on entity type 'VisitStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[30000]
+      No type was specified for the decimal column 'VisitAmount' on entity type 'VisitStatus'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'ForHasColumnType()'.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (351ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AppliedAmount], [p].[BatchDocumentID], [p].[CheckAmount], [p].[CheckDate], [p].[CheckNumber], [p].[Comments], [p].[CreditDebitFlag], [p].[DocumentBatchApplied], [p].[DownloadedFileID], [p].[ExtraColumn], [p].[NumberOfPatients], [p].[NumberOfVisits], [p].[PageNumber], [p].[PayeeAddress], [p].[PayeeCity], [p].[PayeeNPI], [p].[PayeeName], [p].[PayeeState], [p].[PayeeTaxID], [p].[PayeeZipCode], [p].[PayerAddress], [p].[PayerCity], [p].[PayerContactNumber], [p].[PayerContactPerson], [p].[PayerID], [p].[PayerName], [p].[PayerState], [p].[PayerZipCode], [p].[PaymentMethod], [p].[PostedAmount], [p].[PostedBy], [p].[PostedDate], [p].[PracticeID], [p].[REF_2U_ID], [p].[ReceiverID], [p].[Status], [p].[TransactionCode], [p].[UnAppliedAmount], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PaymentCheck] AS [p]
+      WHERE [p].[ID] = @__id_0
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (351ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AllowedAmount], [p].[BatchDocumentID], [p].[BilledAmount], [p].[ClaimNumber], [p].[ClaimStatementFromDate], [p].[ClaimStatementToDate], [p].[Comments], [p].[ForwardedPayerID], [p].[ForwardedPayerName], [p].[InsuredFirstName], [p].[InsuredID], [p].[InsuredLastName], [p].[MyProperty], [p].[PageNumber], [p].[PaidAmount], [p].[PatientAmount], [p].[PatientFIrstName], [p].[PatientID], [p].[PatientLastName], [p].[PayerContactNumber], [p].[PayerICN], [p].[PayerReceivedDate], [p].[PaymentCheckID], [p].[PostedBy], [p].[PostedDate], [p].[ProcessedAs], [p].[ProvFirstName], [p].[ProvLastName], [p].[ProvNPI], [p].[Status], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[WriteOffAmount]
+      FROM [PaymentVisit] AS [p]
+      WHERE [p].[PaymentCheckID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (345ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (332ms) [Parameters=[@__pf_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[ChargeID], [p].[GroupID], [p].[Notes], [p].[PaymentChargeID], [p].[PlanFollowupID], [p].[ReasonID], [p].[RemarkCode1ID], [p].[RemarkCode2ID], [p].[RemarkCode3ID], [p].[RemarkCode4ID], [p].[RemarkCodeID], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PlanFollowupCharge] AS [p]
+      WHERE [p].[PlanFollowupID] = @__pf_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (351ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (345ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (358ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.RecurringJobScheduler[0]
+      An exception was thrown during acquiring distributed lock the recurring-jobs:lock resource within 60 seconds. The recurring jobs have not been handled this time.
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:recurring-jobs:lock' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock(JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.DelayedJobScheduler[0]
+      An exception was thrown during acquiring distributed lock on the locks:schedulepoller resource within 60 seconds. The scheduled jobs have not been handled this time.
+It will be retried in 15 seconds
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:locks:schedulepoller' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (395ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p0;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p1;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p2;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p3;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p4;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p5;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowupCharge]
+      WHERE [ID] = @p6;
+      SELECT @@ROWCOUNT;
+fail: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'MediFusionPM.Models.ClientDbContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+         at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+         at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+         at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+         at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+         at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+         at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+         at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+         at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+      --- End of stack trace from previous location where exception was thrown ---
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) in 57370.8011ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck(Nullable`1 id) in C:\Users\Lpt44\Desktop\Code\MediFusion\Controllers\PaymentCheckController.cs:line 1087
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Elmah.Io.AspNetCore.ElmahIoMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 57628.7558ms 500 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0UDSE6HBSS", Request id "0HM0UDSE6HBSS:00000002": the application completed without reading the entire request body.
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE http://localhost:44306/api/PaymentCheck/DeletePaymentCheck/10249 application/json 5
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "DeletePaymentCheck", controller = "PaymentCheck"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePaymentCheck(System.Nullable`1[System.Int64]) on controller MediFusionPM.Controllers.PaymentCheckController (MediFusionPM).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (361ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AppliedAmount], [p].[BatchDocumentID], [p].[CheckAmount], [p].[CheckDate], [p].[CheckNumber], [p].[Comments], [p].[CreditDebitFlag], [p].[DocumentBatchApplied], [p].[DownloadedFileID], [p].[ExtraColumn], [p].[NumberOfPatients], [p].[NumberOfVisits], [p].[PageNumber], [p].[PayeeAddress], [p].[PayeeCity], [p].[PayeeNPI], [p].[PayeeName], [p].[PayeeState], [p].[PayeeTaxID], [p].[PayeeZipCode], [p].[PayerAddress], [p].[PayerCity], [p].[PayerContactNumber], [p].[PayerContactPerson], [p].[PayerID], [p].[PayerName], [p].[PayerState], [p].[PayerZipCode], [p].[PaymentMethod], [p].[PostedAmount], [p].[PostedBy], [p].[PostedDate], [p].[PracticeID], [p].[REF_2U_ID], [p].[ReceiverID], [p].[Status], [p].[TransactionCode], [p].[UnAppliedAmount], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PaymentCheck] AS [p]
+      WHERE [p].[ID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (347ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AllowedAmount], [p].[BatchDocumentID], [p].[BilledAmount], [p].[ClaimNumber], [p].[ClaimStatementFromDate], [p].[ClaimStatementToDate], [p].[Comments], [p].[ForwardedPayerID], [p].[ForwardedPayerName], [p].[InsuredFirstName], [p].[InsuredID], [p].[InsuredLastName], [p].[MyProperty], [p].[PageNumber], [p].[PaidAmount], [p].[PatientAmount], [p].[PatientFIrstName], [p].[PatientID], [p].[PatientLastName], [p].[PayerContactNumber], [p].[PayerICN], [p].[PayerReceivedDate], [p].[PaymentCheckID], [p].[PostedBy], [p].[PostedDate], [p].[ProcessedAs], [p].[ProvFirstName], [p].[ProvLastName], [p].[ProvNPI], [p].[Status], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[WriteOffAmount]
+      FROM [PaymentVisit] AS [p]
+      WHERE [p].[PaymentCheckID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (349ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (330ms) [Parameters=[@__pf_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[ChargeID], [p].[GroupID], [p].[Notes], [p].[PaymentChargeID], [p].[PlanFollowupID], [p].[ReasonID], [p].[RemarkCode1ID], [p].[RemarkCode2ID], [p].[RemarkCode3ID], [p].[RemarkCode4ID], [p].[RemarkCodeID], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PlanFollowupCharge] AS [p]
+      WHERE [p].[PlanFollowupID] = @__pf_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (360ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (324ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (345ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (360ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p0;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p1;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p2;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p3;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p4;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p5;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowupCharge]
+      WHERE [ID] = @p6;
+      SELECT @@ROWCOUNT;
+fail: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'MediFusionPM.Models.ClientDbContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+         at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+         at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+         at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+         at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+         at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+         at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+         at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+         at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+      --- End of stack trace from previous location where exception was thrown ---
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) in 4587.4664ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck(Nullable`1 id) in C:\Users\Lpt44\Desktop\Code\MediFusion\Controllers\PaymentCheckController.cs:line 1087
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Elmah.Io.AspNetCore.ElmahIoMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 8868.7294ms 500 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0UDSE6HBSS", Request id "0HM0UDSE6HBSS:00000003": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE http://localhost:44306/api/PaymentCheck/DeletePaymentCheck/10249 application/json 5
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "DeletePaymentCheck", controller = "PaymentCheck"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePaymentCheck(System.Nullable`1[System.Int64]) on controller MediFusionPM.Controllers.PaymentCheckController (MediFusionPM).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (342ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AppliedAmount], [p].[BatchDocumentID], [p].[CheckAmount], [p].[CheckDate], [p].[CheckNumber], [p].[Comments], [p].[CreditDebitFlag], [p].[DocumentBatchApplied], [p].[DownloadedFileID], [p].[ExtraColumn], [p].[NumberOfPatients], [p].[NumberOfVisits], [p].[PageNumber], [p].[PayeeAddress], [p].[PayeeCity], [p].[PayeeNPI], [p].[PayeeName], [p].[PayeeState], [p].[PayeeTaxID], [p].[PayeeZipCode], [p].[PayerAddress], [p].[PayerCity], [p].[PayerContactNumber], [p].[PayerContactPerson], [p].[PayerID], [p].[PayerName], [p].[PayerState], [p].[PayerZipCode], [p].[PaymentMethod], [p].[PostedAmount], [p].[PostedBy], [p].[PostedDate], [p].[PracticeID], [p].[REF_2U_ID], [p].[ReceiverID], [p].[Status], [p].[TransactionCode], [p].[UnAppliedAmount], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PaymentCheck] AS [p]
+      WHERE [p].[ID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (349ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AllowedAmount], [p].[BatchDocumentID], [p].[BilledAmount], [p].[ClaimNumber], [p].[ClaimStatementFromDate], [p].[ClaimStatementToDate], [p].[Comments], [p].[ForwardedPayerID], [p].[ForwardedPayerName], [p].[InsuredFirstName], [p].[InsuredID], [p].[InsuredLastName], [p].[MyProperty], [p].[PageNumber], [p].[PaidAmount], [p].[PatientAmount], [p].[PatientFIrstName], [p].[PatientID], [p].[PatientLastName], [p].[PayerContactNumber], [p].[PayerICN], [p].[PayerReceivedDate], [p].[PaymentCheckID], [p].[PostedBy], [p].[PostedDate], [p].[ProcessedAs], [p].[ProvFirstName], [p].[ProvLastName], [p].[ProvNPI], [p].[Status], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[WriteOffAmount]
+      FROM [PaymentVisit] AS [p]
+      WHERE [p].[PaymentCheckID] = @__id_0
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (350ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (349ms) [Parameters=[@__pf_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[ChargeID], [p].[GroupID], [p].[Notes], [p].[PaymentChargeID], [p].[PlanFollowupID], [p].[ReasonID], [p].[RemarkCode1ID], [p].[RemarkCode2ID], [p].[RemarkCode3ID], [p].[RemarkCode4ID], [p].[RemarkCodeID], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PlanFollowupCharge] AS [p]
+      WHERE [p].[PlanFollowupID] = @__pf_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (370ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+dbug: Hangfire.Server.RecurringJobScheduler[0]
+      An exception was thrown during acquiring distributed lock the recurring-jobs:lock resource within 60 seconds. The recurring jobs have not been handled this time.
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:recurring-jobs:lock' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock(JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.DelayedJobScheduler[0]
+      An exception was thrown during acquiring distributed lock on the locks:schedulepoller resource within 60 seconds. The scheduled jobs have not been handled this time.
+It will be retried in 15 seconds
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:locks:schedulepoller' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (344ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (363ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE http://localhost:44306/api/PaymentCheck/DeletePaymentCheck/67 application/json 5
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "DeletePaymentCheck", controller = "PaymentCheck"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePaymentCheck(System.Nullable`1[System.Int64]) on controller MediFusionPM.Controllers.PaymentCheckController (MediFusionPM).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) - Validation state: Valid
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2,402ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64), @p6='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p0;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p1;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p2;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p3;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p4;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p5;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowupCharge]
+      WHERE [ID] = @p6;
+      SELECT @@ROWCOUNT;
+fail: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'MediFusionPM.Models.ClientDbContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+         at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+         at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+         at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+         at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+         at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+         at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+         at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+         at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+      --- End of stack trace from previous location where exception was thrown ---
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) in 105241.4403ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_PlanFollowupCharge_PaymentCharge_PaymentChargeID". The conflict occurred in database "MedifusionAZIZ", table "dbo.PlanFollowupCharge", column 'PaymentChargeID'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreResults(Boolean& moreResults)
+   at System.Data.SqlClient.SqlDataReader.TryNextResult(Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.<>c__DisplayClass187_0.<NextResultAsync>b__1(Task t)
+   at System.Data.SqlClient.SqlDataReader.InvokeRetryable[T](Func`2 moreFunc, TaskCompletionSource`1 source, IDisposable objectToDispose)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(DbContext _, ValueTuple`2 parameters, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck(Nullable`1 id) in C:\Users\Lpt44\Desktop\Code\MediFusion\Controllers\PaymentCheckController.cs:line 1087
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Elmah.Io.AspNetCore.ElmahIoMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 105291.2488ms 500 text/html; charset=utf-8
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (355ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AppliedAmount], [p].[BatchDocumentID], [p].[CheckAmount], [p].[CheckDate], [p].[CheckNumber], [p].[Comments], [p].[CreditDebitFlag], [p].[DocumentBatchApplied], [p].[DownloadedFileID], [p].[ExtraColumn], [p].[NumberOfPatients], [p].[NumberOfVisits], [p].[PageNumber], [p].[PayeeAddress], [p].[PayeeCity], [p].[PayeeNPI], [p].[PayeeName], [p].[PayeeState], [p].[PayeeTaxID], [p].[PayeeZipCode], [p].[PayerAddress], [p].[PayerCity], [p].[PayerContactNumber], [p].[PayerContactPerson], [p].[PayerID], [p].[PayerName], [p].[PayerState], [p].[PayerZipCode], [p].[PaymentMethod], [p].[PostedAmount], [p].[PostedBy], [p].[PostedDate], [p].[PracticeID], [p].[REF_2U_ID], [p].[ReceiverID], [p].[Status], [p].[TransactionCode], [p].[UnAppliedAmount], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PaymentCheck] AS [p]
+      WHERE [p].[ID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (354ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AllowedAmount], [p].[BatchDocumentID], [p].[BilledAmount], [p].[ClaimNumber], [p].[ClaimStatementFromDate], [p].[ClaimStatementToDate], [p].[Comments], [p].[ForwardedPayerID], [p].[ForwardedPayerName], [p].[InsuredFirstName], [p].[InsuredID], [p].[InsuredLastName], [p].[MyProperty], [p].[PageNumber], [p].[PaidAmount], [p].[PatientAmount], [p].[PatientFIrstName], [p].[PatientID], [p].[PatientLastName], [p].[PayerContactNumber], [p].[PayerICN], [p].[PayerReceivedDate], [p].[PaymentCheckID], [p].[PostedBy], [p].[PostedDate], [p].[ProcessedAs], [p].[ProvFirstName], [p].[ProvLastName], [p].[ProvNPI], [p].[Status], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[WriteOffAmount]
+      FROM [PaymentVisit] AS [p]
+      WHERE [p].[PaymentCheckID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (325ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (365ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+dbug: Hangfire.Server.RecurringJobScheduler[0]
+      An exception was thrown during acquiring distributed lock the recurring-jobs:lock resource within 60 seconds. The recurring jobs have not been handled this time.
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:recurring-jobs:lock' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock(JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.DelayedJobScheduler[0]
+      An exception was thrown during acquiring distributed lock on the locks:schedulepoller resource within 60 seconds. The scheduled jobs have not been handled this time.
+It will be retried in 15 seconds
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:locks:schedulepoller' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action)
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (374ms) [Parameters=[@p0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p0;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (347ms) [Parameters=[@p1='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentVisit]
+      WHERE [ID] = @p1;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (356ms) [Parameters=[@p2='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCheck]
+      WHERE [ID] = @p2;
+      SELECT @@ROWCOUNT;
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.OkResult in 24147.7452ms.
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing HttpStatusCodeResult, setting HTTP status code 200
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) in 24163.8668ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 27389.1272ms 200 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0UDSE6HBSU", Request id "0HM0UDSE6HBSU:00000001": the application completed without reading the entire request body.
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.RecurringJobScheduler[0]
+      An exception was thrown during acquiring distributed lock the recurring-jobs:lock resource within 60 seconds. The recurring jobs have not been handled this time.
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:recurring-jobs:lock' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.RecurringJobScheduler.UseConnectionDistributedLock(JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.DelayedJobScheduler[0]
+      An exception was thrown during acquiring distributed lock on the locks:schedulepoller resource within 60 seconds. The scheduled jobs have not been handled this time.
+It will be retried in 15 seconds
+Hangfire.Storage.DistributedLockTimeoutException: Timeout expired. The timeout elapsed prior to obtaining a distributed lock on the 'HangFire:locks:schedulepoller' resource.
+   at Hangfire.SqlServer.SqlServerDistributedLock.Acquire(IDbConnection connection, String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireLock(String resource, TimeSpan timeout)
+   at Hangfire.SqlServer.SqlServerConnection.AcquireDistributedLock(String resource, TimeSpan timeout)
+   at Hangfire.Server.DelayedJobScheduler.UseConnectionDistributedLock[T](JobStorage storage, Func`2 action)
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DELETE http://localhost:44306/api/PaymentCheck/DeletePaymentCheck/10255 application/json 5
+info: Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler[2]
+      Successfully validated the token.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "DeletePaymentCheck", controller = "PaymentCheck"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeletePaymentCheck(System.Nullable`1[System.Int64]) on controller MediFusionPM.Controllers.PaymentCheckController (MediFusionPM).
+info: Microsoft.AspNetCore.Authorization.DefaultAuthorizationService[1]
+      Authorization was successful.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'ClientDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: CommandTimeout=96000 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (342ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT TOP(1) [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AppliedAmount], [p].[BatchDocumentID], [p].[CheckAmount], [p].[CheckDate], [p].[CheckNumber], [p].[Comments], [p].[CreditDebitFlag], [p].[DocumentBatchApplied], [p].[DownloadedFileID], [p].[ExtraColumn], [p].[NumberOfPatients], [p].[NumberOfVisits], [p].[PageNumber], [p].[PayeeAddress], [p].[PayeeCity], [p].[PayeeNPI], [p].[PayeeName], [p].[PayeeState], [p].[PayeeTaxID], [p].[PayeeZipCode], [p].[PayerAddress], [p].[PayerCity], [p].[PayerContactNumber], [p].[PayerContactPerson], [p].[PayerID], [p].[PayerName], [p].[PayerState], [p].[PayerZipCode], [p].[PaymentMethod], [p].[PostedAmount], [p].[PostedBy], [p].[PostedDate], [p].[PracticeID], [p].[REF_2U_ID], [p].[ReceiverID], [p].[Status], [p].[TransactionCode], [p].[UnAppliedAmount], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PaymentCheck] AS [p]
+      WHERE [p].[ID] = @__id_0
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (350ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AllowedAmount], [p].[BatchDocumentID], [p].[BilledAmount], [p].[ClaimNumber], [p].[ClaimStatementFromDate], [p].[ClaimStatementToDate], [p].[Comments], [p].[ForwardedPayerID], [p].[ForwardedPayerName], [p].[InsuredFirstName], [p].[InsuredID], [p].[InsuredLastName], [p].[MyProperty], [p].[PageNumber], [p].[PaidAmount], [p].[PatientAmount], [p].[PatientFIrstName], [p].[PatientID], [p].[PatientLastName], [p].[PayerContactNumber], [p].[PayerICN], [p].[PayerReceivedDate], [p].[PaymentCheckID], [p].[PostedBy], [p].[PostedDate], [p].[ProcessedAs], [p].[ProvFirstName], [p].[ProvLastName], [p].[ProvNPI], [p].[Status], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[WriteOffAmount]
+      FROM [PaymentVisit] AS [p]
+      WHERE [p].[PaymentCheckID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (339ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (354ms) [Parameters=[@__pf_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[ChargeID], [p].[GroupID], [p].[Notes], [p].[PaymentChargeID], [p].[PlanFollowupID], [p].[ReasonID], [p].[RemarkCode1ID], [p].[RemarkCode2ID], [p].[RemarkCode3ID], [p].[RemarkCode4ID], [p].[RemarkCodeID], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate]
+      FROM [PlanFollowupCharge] AS [p]
+      WHERE [p].[PlanFollowupID] = @__pf_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (350ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (343ms) [Parameters=[@__pv_ID_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[ActionID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentCodeID], [p].[GroupID], [p].[Notes], [p].[PaymentVisitID], [p].[ReasonID], [p].[RemitCode], [p].[Resolved], [p].[TickleDate], [p].[UpdatedBy], [p].[UpdatedDate], [p].[VisitID], [p].[VisitStatusID]
+      FROM [PlanFollowUp] AS [p]
+      WHERE [p].[PaymentVisitID] = @__pv_ID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (348ms) [Parameters=[@__id_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SELECT [p].[ID], [p].[AddedBy], [p].[AddedDate], [p].[AdjustmentAmount1], [p].[AdjustmentAmount2], [p].[AdjustmentAmount3], [p].[AdjustmentAmount4], [p].[AdjustmentAmount5], [p].[AdjustmentCodeID1], [p].[AdjustmentCodeID2], [p].[AdjustmentCodeID3], [p].[AdjustmentCodeID4], [p].[AdjustmentCodeID5], [p].[AdjustmentQuantity1], [p].[AdjustmentQuantity2], [p].[AdjustmentQuantity3], [p].[AdjustmentQuantity4], [p].[AdjustmentQuantity5], [p].[AllowedAmount], [p].[AppliedToSec], [p].[BilledAmount], [p].[CPTCode], [p].[ChargeControlNumber], [p].[ChargeID], [p].[CoinsuranceAmount], [p].[Comments], [p].[Copay], [p].[DOSFrom], [p].[DOSTo], [p].[DeductableAmount], [p].[GroupCode1], [p].[GroupCode2], [p].[GroupCode3], [p].[GroupCode4], [p].[GroupCode5], [p].[Modifier1], [p].[Modifier2], [p].[Modifier3], [p].[Modifier4], [p].[OtherPatResp], [p].[PaidAmount], [p].[PatientAmount], [p].[PaymentVisitID], [p].[PostedBy], [p].[PostedDate], [p].[RemarkCodeID1], [p].[RemarkCodeID2], [p].[RemarkCodeID3], [p].[RemarkCodeID4], [p].[RemarkCodeID5], [p].[RevenueCode], [p].[Status], [p].[Units], [p].[UpdatedBy], [p].[UpdatedDate], [p].[WriteoffAmount]
+      FROM [PaymentCharge] AS [p]
+      WHERE [p].[PaymentVisitID] = @__id_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (361ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p2='?' (DbType = Int64), @p3='?' (DbType = Int64), @p4='?' (DbType = Int64), @p5='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p0;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p1;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p2;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowupCharge]
+      WHERE [ID] = @p3;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowupCharge]
+      WHERE [ID] = @p4;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowupCharge]
+      WHERE [ID] = @p5;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (363ms) [Parameters=[@p6='?' (DbType = Int64), @p7='?' (DbType = Int64), @p8='?' (DbType = Int64), @p9='?' (DbType = Int64), @p10='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p6;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p7;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentCharge]
+      WHERE [ID] = @p8;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PaymentVisit]
+      WHERE [ID] = @p9;
+      SELECT @@ROWCOUNT;
+      
+      DELETE FROM [PlanFollowUp]
+      WHERE [ID] = @p10;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (340ms) [Parameters=[@p11='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentVisit]
+      WHERE [ID] = @p11;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (352ms) [Parameters=[@p12='?' (DbType = Int64)], CommandType='Text', CommandTimeout='96000']
+      SET NOCOUNT ON;
+      DELETE FROM [PaymentCheck]
+      WHERE [ID] = @p12;
+      SELECT @@ROWCOUNT;
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM), returned result Microsoft.AspNetCore.Mvc.OkResult in 135748.6118ms.
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing HttpStatusCodeResult, setting HTTP status code 200
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action MediFusionPM.Controllers.PaymentCheckController.DeletePaymentCheck (MediFusionPM) in 135761.4951ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 138042.3564ms 200 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0UDSE6HBSV", Request id "0HM0UDSE6HBSV:00000001": the application completed without reading the entire request body.
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:15172:20f700ce heartbeat successfully sent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

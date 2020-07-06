@@ -1,0 +1,10 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method(Closure , TransparentIdentifier`2 )
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at System.Linq.AsyncEnumerable.AsyncEnumerableAdapter`1.ToListAsync(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.ToList[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.ToList[TSource](IAsyncEnumerable`1 source)
+   at MediFusionPM.ReportControllers.RAnesthesiaUnitController.FindAnesthesiaUnitReports(CRAnesthesiaUnit CRAnesthesiaUnit) in C:\Users\LPT44\Desktop\Medifusion New\MediFusionPM\MediFusionPM\ReportControllers\RAnesthesiaUnitController.cs:line 107

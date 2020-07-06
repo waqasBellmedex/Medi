@@ -1,0 +1,187 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediFusion</title>
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 9px;
+    line-height: 1.5;
+    margin:10px 0;
+}
+.pgSize{
+    width: 95%;
+}
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.send p:before,
+.send p:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.send p:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.send p:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.tableDetails
+{
+border:1px solid #000;
+border-collapse: collapse;
+padding: 8px;
+font-size: 16px; 
+}
+@media screen {
+  div.divFooter {
+    display: none;
+  }
+}
+@media print {
+  div.divFooter {
+    position: fixed;
+    bottom: 0;
+  }
+}
+	</style>
+</head>
+    <body>
+        
+       
+              <div style="width: 700px;align:center;border:1px;border-color:red;margin: auto;">
+			
+               <div style="width: 33%;float: left;border-top: 2px solid #000;overflow: hidden;padding: 10px 0 0;margin-right: 10px;margin-top: 16px;">
+<div style="width: 100%;float: left;padding-left: 00px;font-size: 19px;"><strong style=" font-size: 14px;">$PRACTICE_NAME</strong></div>
+<p style="margin-top: 0;margin-bottom: 0;font-size: 14px;">$PRACTICE_Address<br/>$PRACTICE_City $PRACTICE_State $PRACTICE_Zip</p>
+<p style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
+<div style="width: 100%;float: left;font-size: 10px;margin-bottom: 15px;">
+<p style="margin-top: 0; margin-bottom: 0;">ANY QUESTIONS PLEASE CALL: <strong>(855) 552-3776</strong></p>
+</div>
+<div style="width: 100%; float: left; font-size: 11px;">
+<p style="margin-top: 0;margin-bottom: 0;font-size: 14px;"><strong>PATIENT:</strong>$PATIENT_Name</p>
+</div>
+</div>
+
+               <div style="border: 1px solid #000;width: 65%;float:left;font-size: 8px;overflow: hidden;">
+                    <p style="border-bottom: 1px solid #000;padding:2px 10px;margin:0;font-size: 8px;">
+                        IF PAYING BY MASTERCARD, DISCOVER, VISA OR AMERICAN EXPRESS, FILL OUT BELOW. 
+                    </p>
+                    <div style="width: 100%; border-bottom: 1px solid #000; float: left; overflow: hidden;">
+                        
+                        <p style="margin:0;padding:4px 3px;width: 93%;float: left;">
+                            <label style="margin-right:3px">
+                                <input type="checkbox" alt="V"></input>
+								<img src="$URL/images/visa-card.png" ></img>
+                                <span style="vertical-align: 4px;">VISA</span>                        
+                            </label>
+                            <label style="margin-right:3px">
+                                <input type="checkbox" alt="MC"  ></input>
+								<img src="$URL/images/master-card.png"></img>
+                                <span style="vertical-align: 4px;">MASTERCARD</span>  
+                            </label> 
+                            <label style="margin-right:3px">
+                                <input type="checkbox" alt="DC" ></input>
+								<img src="$URL/images/discover-card.png"></img>
+                                <span style="vertical-align: 4px;">DISCOVER</span>                        
+                            </label>
+                            <label>
+                                <input type="checkbox" alt="AE"  ></input>
+								<img src="$URL/images/american-card.png"></img>
+                                <span style="vertical-align: 4px;">AMER EXP.</span>                           
+                            </label>
+                        </p>
+                    </div>
+
+                    <div style="width: 100%;border-bottom: 1px solid #000;float: left;overflow: hidden;font-size: 12px;">
+                        <p style="padding:2px 5px 18px; margin:0;width: 50%;float: left;border-right: 1px solid #000;">
+                            CARD NUMBER 
+                        </p>
+                        <p style="padding:2px 5px 18px; margin:0;width: 50%;float: left;">
+                            SIGNATURE CODE  
+                        </p>
+                    </div>
+                    <p style="padding: 2px 5px 18px;margin:0;width: 50%;float: left;font-size: 12px;border-bottom: 1px solid #000;border-right: 1px solid #000;">
+                        SIGNATURE  
+                    </p>
+                    <p style="padding: 2px 5px 18px;margin:0;width: 50%;float: left;font-size: 12px;border-bottom: 1px solid #000;">
+                        EXP DATE   
+                    </p>
+					<p style="padding: 5px 10px;margin:0;width: 25%;float: left;border-right: 1px solid #000;;text-align: center;">
+                       <strong> ACCT. #</strong>  <br/>
+                        <span style="font-size: 12px;">$PATIENT_Id</span>
+                    </p>
+                    <p style="padding: 5px 10px;margin:0;width: 25%;float: left; border-right: 1px solid #000;text-align: center;">
+                        <strong>STATEMENT DATE</strong>  <br/>
+                        <span style="font-size: 12px;">$STATEMENT_Date</span>
+                    </p>
+
+                    <p style="padding: 5px 10px;margin:0;width: 25%;float: left; border-right: 1px solid #000;text-align: center;">
+                        <strong>PAY THIS AMOUNT</strong>  <br/>
+                        <span style="font-size: 12px;">$AMOUNT</span>
+                    </p>
+
+                   
+					<p style="padding: 5px 10px;margin:0;width: 25%;float: left; text-align: center;">
+                       <strong> AMOUNT $PAID </strong>   
+                    </p>
+                   
+
+                </div>
+         <div style="width: 41%;float:left;margin-top: 5px;margin-right: 30px;border: 1px solid #000;background-color: lightgrey;padding: 0px;text-align: center;font-size: 18px;font-weight: bold;">Confidentially Sent To </div>
+       <div style="width: 46%;float:left;margin-top: 5px;margin-right: 30px;border: 1px solid #000;background-color: lightgrey;padding: 0;text-align: center;font-size: 18px;font-weight: bold;">Make Payment To</div>
+            <div style="width: 100%;float:left;line-height: 1.5;margin-bottom: 10px;">
+                <p style="width: 50%; float: left; padding-left: 20px; margin: 10px 0 0 0; font-size: 12px;"><strong>$PATIENT_Name</strong> <br /> $PATIENT_Address $PATIENT_City $PATIENT_State $PATIENT_Zip</p>
+<p style="width: 50%; float: left; margin: 10px 0 0 0; font-size: 12px;"><strong>$PRACTICE_NAME</strong> <br />$PRACTICE_Address $PRACTICE_City $PRACTICE_State $PRACTICE_Zip</p>
+            
+                <p style="width: 100%;float: left;margin: 6px 0 0 0;font-size: 9px;">
+                    <label>
+                        <input type="checkbox" name=""  ></input>
+                        <span style="/* FONT-VARIANT: JIS04; */vertical-align: 3px;">
+                            PLEASE CHECK THE BOX IF YOUR ADDRESS IS
+                            INCORRECT OR INSURANCE INFO HAS CHANGED 
+                        </span> 
+                    </label>
+                </p>
+                 <br/>
+                <p style="width: 100%; float: left; margin: 0px 0 0 0; font-size: 13px;"> <strong> Note:</strong> PLEASE DETACH AND RETURN TOP PORTION WITH YOUR PAYMENT  </p>
+            </div>
+			 <div class="pgSize" style="width: 95%;margin: 0 auto; background-color: #ffffff; font-family: 'Lato',
+		sans-serif;  font-size: 9px; line-height: 1.5;margin:10px 0;"></div>
+            <div style="border: 1px dotted #000;overflow: hidden;">
+            </div>
+            $STATEMENT_DATA
+            <div style="width: 60%;float:left;margin-top: 10px;margin-right: 0;border: 1px solid #000;background-color: lightgrey;padding: 20px 20px 27px 20px;font-size: 16px;">
+                $MESSAGE
+            </div>  
+			<div style="width: 30%;float: right;margin: 11px 2px 2px 1px;border: 1px solid #000;line-height: 1.5;padding: 0px 0px 0px 15px;">
+                <p style="margin: 10px 16px 0px 0px;">
+                    <span style="display: inline-block;font-size: 17px;font-weight: bold;float: left;">PLEASE PAY:</span> <span style="display: inline-block;font-size: 17px;font-weight: bold;float: right;">$AMOUNT</span>
+                </p>
+                
+            </div>
+			
+        </div> 
+		<div style="both:clear;" />
+<div class="divFooter">This statement is printed by MediFusion</div>		
+    </body>
+</html>

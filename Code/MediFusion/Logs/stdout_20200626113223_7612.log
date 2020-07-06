@@ -1,0 +1,507 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Lpt44\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Start installing Hangfire SQL objects...
+info: Hangfire.SqlServer.SqlServerObjectsInstaller[0]
+      Hangfire SQL objects installed.
+warn: Microsoft.AspNetCore.Identity.UserManager[5]
+      User 18ff91d7-4b13-497c-8735-c496adff21e5 is already in role SuperAdmin.
+info: Hangfire.BackgroundJobServer[0]
+      Starting Hangfire Server using job storage: 'SQL Server: 96.69.218.154\SQLEXPRESS@Hangfire'
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+info: Hangfire.BackgroundJobServer[0]
+      Using the following options for Hangfire Server:
+          Worker count: 20
+          Listening queues: 'default'
+          Shutdown timeout: 00:00:15
+          Schedule polling interval: 00:00:15
+Hosting environment: Development
+Content root path: C:\Users\Lpt44\Desktop\Code\MediFusion
+Now listening on: http://127.0.0.1:20000
+Application started. Press Ctrl+C to shut down.
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop BackgroundServerProcess:cc3d7906 has started in 7.563 ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:57181/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 67.7344ms 307 
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:10720:670bf42f successfully announced in 367.1891 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerHeartbeatProcess:3fc227fc has started in 2.487 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:10720:670bf42f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerWatchdog:758b2fc1 has started in 1.6344 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ServerJobCancellationWatcher:edf8b322 has started in 1.1136 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop ExpirationManager:98bc89cd has started in 1.0007 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop CountersAggregator:d074b45c has started in 1.4687 ms
+dbug: Hangfire.SqlServer.CountersAggregator[0]
+      Aggregating records in 'Counter' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'AggregatedCounter' table...
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:097d239d has started in 3.202 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:db01d074 has started in 4.6019 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:430ec747 has started in 5.713 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:feb3eeed has started in 7.1006 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d2d501ad has started in 8.3118 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:772d2cf3 has started in 8.8327 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:4d2f3dab has started in 9.2398 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:1aa8c7f9 has started in 9.5783 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:08fe6839 has started in 9.8806 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:69117c86 has started in 10.1618 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:13cb28c1 has started in 10.4453 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:28871c7b has started in 10.6958 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:d36a73c2 has started in 10.9269 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:16e3f431 has started in 11.167 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:520f4927 has started in 11.3982 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:46074697 has started in 11.6514 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:6ad2efab has started in 12.5487 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:0b14258f has started in 12.7627 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:f851a4dd has started in 12.9241 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop Worker:271ee536 has started in 13.0992 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop DelayedJobScheduler:7c18afa4 has started in 0.1643 ms
+dbug: Hangfire.Processing.BackgroundExecution[0]
+      Execution loop RecurringJobScheduler:9d4942d8 has started in 0.1886 ms
+info: Hangfire.Server.BackgroundServerProcess[0]
+      Server lpt44:10720:670bf42f all the dispatchers started
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Job' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'List' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Set' table...
+dbug: Hangfire.SqlServer.ExpirationManager[0]
+      Removing outdated records from the 'Hash' table...
+dbug: Hangfire.Server.ServerHeartbeatProcess[0]
+      Server lpt44:10720:670bf42f heartbeat successfully sent
